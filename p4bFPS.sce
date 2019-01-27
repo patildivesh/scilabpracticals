@@ -1,0 +1,14 @@
+disp('Experiment:Three coins are tossed and the number of heads are observed:');
+S=[0,1,2,3];
+disp('probability space is as follows:');
+P0=1/8;
+P1=3/8;
+P2=3/8;
+P3=1/8;
+disp('A is the event that atleast one head appears and B is the event that all heads or all tails appears');
+A=[1,2,3];
+B=[0,3];
+PA=P1+P2+P3;
+disp(PA,'The Probability of Occurence of event A:');
+PB=P0+P3;
+disp(PB,'The Probability of Occurence of event B:');

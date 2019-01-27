@@ -1,0 +1,13 @@
+n=6;
+p=1/2;
+q=1/2;
+PA=(factorial(6)/(factorial(2)*factorial(6-2)))*p^2*q^(6-2);
+disp(PA,'Probability of selecting exactly two heads:');
+P4=(factorial(6)/(factorial(4)*factorial(6-4)))*p^4*q^(6-4);
+P5=(factorial(6)/(factorial(5)*factorial(6-5)))*p^5*q^(6-5);
+P6=(factorial(6)/(factorial(6)*factorial(6-6)))*p^6*q^(6-6);
+PA=P4+P5+P6;
+disp(PA,'Probability of getting atleast four heads:');
+p=q^6;
+PM=1-p;
+disp(PM,'Probability  of getting one or more head:');
